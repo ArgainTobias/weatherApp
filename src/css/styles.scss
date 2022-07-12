@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+main{
+
+    background-image: url('../../public/fondo-main.jpeg');
+    background-size: cover;
+
+    .container-weathers{
+        height: 100vh;
+        display: grid;
+        place-content: center;
+        .div-form{
+            text-align: center;
+            display: grid;
+            place-content: center;
+            padding: 1rem;
+            border-radius: 5px;
+            input{
+                padding: .5rem;
+                margin-bottom: .5rem;
+                border-radius: 5px;
+                border: solid 1px black;
+                width: 190px;
+    
+            }
+            button{
+                padding: .5rem;
+                border-radius: 5px;
+                width: 190px;
+                border: solid 1px white;
+                background-color: darkolivegreen;
+                color: white;
+                cursor: pointer;
+                transition: .5s;
+            }
+    
+            button:hover{
+                background-color: darkslategrey;
+            }
+        }
+    
+        .container-div-info{    
+            display: grid;
+            place-content: center;
+            .div-info{
+                display: grid;
+                place-content: center;
+                background-color: darkolivegreen;
+                margin: 1rem;
+                padding: .5rem;
+                border-radius: 5px;
+                border: solid 1px black;
+                box-shadow: 10px 10px 10px;
+                width: 400px;
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: cursive;
+}
+
+main {
+  background-image: url("../../public/fondo-main.jpeg");
+  background-size: cover;
+}
+
+main .container-weathers {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+main .container-weathers .div-form {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+main .container-weathers .div-form input {
+  padding: .5rem;
+  margin-bottom: .5rem;
+  border-radius: 5px;
+  border: solid 1px black;
+  width: 190px;
+}
+
+main .container-weathers .div-form button {
+  padding: .5rem;
+  border-radius: 5px;
+  width: 190px;
+  border: solid 1px white;
+  background-color: darkolivegreen;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main .container-weathers .div-form button:hover {
+  background-color: darkslategrey;
+}
+
+main .container-weathers .container-div-info {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+main .container-weathers .container-div-info .div-info {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  background-color: darkolivegreen;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+  border: solid 1px black;
+  -webkit-box-shadow: 10px 10px 10px;
+          box-shadow: 10px 10px 10px;
+  width: 400px;
+}
+/*# sourceMappingURL=styles.css.map */
