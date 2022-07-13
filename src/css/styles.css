@@ -6,13 +6,32 @@
   font-family: cursive;
 }
 
-main {
-  background-image: url("../../public/fondo-main.jpeg");
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 7, 12, 0.75)), to(rgba(5, 7, 12, 0.75))), url("../../public/fondo-main.jpeg");
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../../public/fondo-main.jpeg");
   background-size: cover;
 }
 
+header {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid 1px darkolivegreen;
+}
+
+header h1 {
+  color: darkolivegreen;
+}
+
 main .container-weathers {
-  height: 100vh;
+  height: 83vh;
   display: -ms-grid;
   display: grid;
   place-content: center;
